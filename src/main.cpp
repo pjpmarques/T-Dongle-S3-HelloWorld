@@ -70,7 +70,7 @@ void loop() {
 
   FastLED.showColor(CRGB::Green);
   tft.fillRect(0, 0, TFT_HEIGHT, TFT_WIDTH, TFT_GREEN);
-  tft.setTextColor(TFT_BLACK, TFT_GREEN);
+  tft.setTextColor(TFT_WHITE, TFT_GREEN);
   tft.drawString("GREEN", TFT_HEIGHT/2, TFT_WIDTH/2, 4);
   Serial.println("Green");
   delay(1000);
